@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books App</title>
+</head>
+
+<body>
+    <h1>Books App</h1>
+    <ul id="books_list">
+    </ul>
+    <dialog id="add_dialog">
+        Name:
+        <input id="add_name_input" type="text" name="name">
+        <br> Price:
+        <input id="add_price_input" type="number" name="price">
+        <br> Genre:
+        <input id="add_genre_input" type="text" name="genre">
+        <div id="add_buttons">
+            <button id="add_cancel">Cancel</button>
+            <button id="add_save">Save</button>
+        </div>
+    </dialog>
+    <dialog id="edit_dialog">
+        Name:
+        <input id="edit_name_input" type="text" name="name">
+        <br> Price:
+        <input id="edit_price_input" type="number" name="price">
+        <br> Genre:
+        <input id="edit_genre_input" type="text" name="genre">
+        <div id="edit_buttons">
+            <button id="edit_cancel">Cancel</button>
+            <button id="edit_save">Save</button>
+        </div>
+    </dialog>
+    <p>
+        <span id="no_books" hidden>No movies currently listed&nbsp;</span>
+        <button id="add_button">Add Book</button>
+    </p>
+</body>
+<script src="app.js"></script>
+
+</html>
